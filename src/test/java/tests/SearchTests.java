@@ -23,7 +23,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    void androidUnsuccessfulOpenArticleTest() {
+    void androidUnsuccessfulAeroflotTest() {
         step("Напечатать в поиске слово 'Aeroflot'", () -> {
             $(accessibilityId("Search Wikipedia")).click();
             $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Aeroflot");
